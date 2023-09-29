@@ -1,0 +1,89 @@
+*{ 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+}
+body{
+    height: 100%;
+    background:linear-gradient(
+        to right, black 0%, black 50%, white 50%, white 100%
+    );
+}
+.logo{
+    width:100%;
+    position: absolute;
+}
+.logo img{
+    width: 10%;
+    float: right;
+    margin-right:20px
+
+}
+span{
+    color: red;
+}
+p,h1{
+    color: white;
+}
+h2{
+  font-size: 150%;  
+}
+.left .red1{
+    position: absolute;
+    height: 100%;
+    width: 0.50%;
+    background-color: red;
+    color: red;
+    margin-left: 10%;
+}
+.left .red2{
+    position: absolute;
+    height: 100%;
+    width: 0.50%;
+    background-color: red;
+    color: red;
+    margin-left: 12%;
+}
+.left{
+    color: white;
+    width: 50%;
+    height: 640px;
+    float: left;
+    text-align: center;
+}
+.left h2{
+    float: right;
+    margin-right: 10%;
+    text-transform: uppercase;
+    
+}
+.right{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    width: 50%;
+    float: right;
+    text-align: center;
+    
+}
+.right h2{
+    float: left;
+    margin-left: 10%;
+}
+form{
+    position: absolute;
+    background-color: rgb(77, 77, 77);
+    width: 40%;
+    border-radius: 20px;
+    margin: 20% 30% 0% 30%;
+}
+.SignUpForm{
+    text-align: center;
+}
+.SignUpForm,input{
+    width: 90%;
+    margin-top: 20px;
+}
+.option{
+    float:left;
+    margin: 3% 0% 0% 4%;
+
+}
